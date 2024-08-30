@@ -1,0 +1,72 @@
+.container_bg {
+  @apply w-screen;
+}
+
+.container {
+  @apply flex flex-row gap-6;
+}
+
+.content_left {
+  @apply w-[30%] border-r border-borderCol h-screen;
+}
+
+.content_middle {
+  @apply w-[80%] h-screen;
+}
+
+.content_right {
+  @apply w-[30%] h-screen border-l border-borderCol;
+}
+
+.header_left {
+  @apply p-6;
+}
+
+.l_s_bar{
+  @apply w-1/2
+}
+
+.l_s_div{
+@apply  justify-center flex
+}
+
+.l_s{
+@apply p-3 flex flex-row gap-2 cursor-pointer hover:bg-transBox 
+}
+
+
+.header_middle {
+  @apply p-3 mt-4;
+}
+
+.middle_inner_content{
+  /* @apply  */
+}
+
+.options_bg{
+@apply flex
+}
+
+.options {
+  @apply opacity-70 hover:opacity-100 cursor-pointer flex;
+}
+
+.header_right {
+  @apply p-6 border-b border-borderCol;
+}
+
+.search_bar_div {
+  @apply flex justify-center relative;
+}
+
+.search_icon{
+  @apply absolute top-1/2 left-2
+}
+
+.search_bar {
+  @apply bg-[#1b1b1f] px-3 py-2 rounded-sm outline-none;
+}
+
+.right_inner_content {
+  @apply p-3;
+}
